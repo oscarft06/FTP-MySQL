@@ -39,7 +39,7 @@ INSERT INTO vsftpd.usuarios (nombre, passwd) VALUES ('alumno', PASSWORD('1234'))
 -- Crear el usuario del sistema DB que usará el FTP para conectarse
 -- Le damos permiso desde la IP de la MV 1
 
-CREATE USER 'vsftpd_db_user'@'192.168.1.10' IDENTIFIED BY 'clave_secreta_db';
+CREATE USER 'vsftpd_db_user'@'192.168.1.10' IDENTIFIED BY 'admin';
 GRANT SELECT ON vsftpd.* TO 'vsftpd_db_user'@'192.168.1.10';
 FLUSH PRIVILEGES;
 EXIT;
