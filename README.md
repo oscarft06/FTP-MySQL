@@ -34,7 +34,7 @@ CREATE TABLE vsftpd.usuarios (
 -- Crear un usuario de prueba (contraseña '1234')
 -- Usamos la función PASSWORD() o texto plano para simplificar la conexión PAM inicial
 
-INSERT INTO vsftpd.usuarios (nombre, password) VALUES ('alumno', PASSWORD('1234'));
+INSERT INTO vsftpd.usuarios (nombre, passwd) VALUES ('alumno', PASSWORD('1234'));
 
 -- Crear el usuario del sistema DB que usará el FTP para conectarse
 -- Le damos permiso desde la IP de la MV 1
