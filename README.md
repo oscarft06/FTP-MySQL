@@ -28,7 +28,7 @@ CREATE DATABASE vsftpd;
 CREATE TABLE vsftpd.usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(50) NOT NULL,
-    password VARCHAR(50) NOT NULL
+    passwd VARCHAR(50) NOT NULL
 );
 
 -- Crear un usuario de prueba (contraseña '1234')
