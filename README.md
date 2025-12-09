@@ -50,11 +50,14 @@ Se veria algo asi:
 
 Ahora instalaremos el servicio VSFPTD en la MV1:
 
-<img width="576" height="132" alt="imagen" src="https://github.com/user-attachments/assets/e39106aa-2af6-426a-ad95-c620fd5e2e6c" />
+<img width="646" height="165" alt="imagen" src="https://github.com/user-attachments/assets/891db895-04f8-465f-bff2-544bfeb75a29" />
 
 
-Los usuarios virtuales, necesitan mapearse a un usuario local de Linux que tenga pocos permisos:
+Los usuarios virtuales, necesitan mapearse a un usuario local de Linux que tenga pocos permisos, entonces, crearemos el siguiente usuario con la siguiente sintaxis:
 
-<img width="792" height="88" alt="imagen" src="https://github.com/user-attachments/assets/18391a40-875f-407c-9c87-661dc83cf2cd" />
+<img width="933" height="266" alt="imagen" src="https://github.com/user-attachments/assets/5009b230-8f86-49a9-aeca-37dcf0cca506" />
+
+
+
 
 
