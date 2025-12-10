@@ -48,6 +48,7 @@ Se veria algo asi:
 
 <img width="520" height="161" alt="imagen" src="https://github.com/user-attachments/assets/7755845d-f90a-486d-a5f7-da1ad647376a" />
 
+
 Ahora instalaremos el servicio VSFPTD en la MV1:
 
 <img width="646" height="165" alt="imagen" src="https://github.com/user-attachments/assets/891db895-04f8-465f-bff2-544bfeb75a29" />
@@ -57,21 +58,26 @@ Los usuarios virtuales, necesitan mapearse a un usuario local de Linux que tenga
 
 <img width="933" height="266" alt="imagen" src="https://github.com/user-attachments/assets/5009b230-8f86-49a9-aeca-37dcf0cca506" />
 
+
 Crearemos el directorio para el usuario creado en la base de datos (cada usuario que tengamos en la base de datos, si queremos que tengan acceso a vsftpd, tendremos que crear su directorio dentro del directorio del usuario invitado/mapeado). También le pondremos permisos para que pueda escribir y le cambiaremos el usuario y grupo propietario al directorio del usuario de la base de datos ya que va a heredar los permisos del usuario invitado/mapeado.
 
 <img width="497" height="138" alt="imagen" src="https://github.com/user-attachments/assets/c20636af-1def-4fca-b105-7cc0932c1083" />
 
-Editaremos el fichero situado en /etc/vsftpd.conf con los siguientes parametros para enjaular a los usuarios de la base de datos, puedan escribir en sus directorios, activar el modo pasivo y los nombre de ficheros/carpetas deben verse correctamente(acentos, eñes...) activando utf8:
+
+Editaremos el fichero situado en /etc/vsftpd.conf con los siguientes parametros para enjaular a los usuarios de la base de datos, puedan escribir en sus directorios, activar el modo pasivo y los nombre de ficheros/carpetas deben verse correctamente(acentos, eñes...) activando utf8. Por último, tendremos que añadir la IP elástica que le hemos asociado a nuestra máquina FTP para poder conectarnos a través de un cliente FTP. Así, evitamos que cada vez que nos conectemos al Lab de AWS, no cambie la IP pública de la máquina.
 
 <img width="668" height="528" alt="imagen" src="https://github.com/user-attachments/assets/7e13044e-eb0d-49af-92fa-460c1ec3937e" />
+
 
 Ahora instalaremos el servicio libpam-mysql, porque necesitmos que el servicio vsftpd hable con MySQL:
 
 <img width="599" height="118" alt="imagen" src="https://github.com/user-attachments/assets/69d7d1da-2fd0-4e3c-8ede-ba45b1941400" />
 
+
 Ahora configuraremos el fichero /etc/pam.d/vsftpd y agregaremos las siguientes lineas para que el modulo pam pueda verificar la autenticacion y el nombre de usuario o la cuenta almacenada en la base de datos:
 
 <img width="1300" height="88" alt="imagen" src="https://github.com/user-attachments/assets/74d64d17-7458-4fed-853a-dcc22b602985" />
+
 
 
 
