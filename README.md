@@ -63,8 +63,7 @@ Crearemos el directorio para el usuario creado en la base de datos (cada usuario
 
 Editaremos el fichero situado en /etc/vsftpd.conf con los siguientes parametros para enjaular a los usuarios de la base de datos, puedan escribir en sus directorios, activar el modo pasivo y los nombre de ficheros/carpetas deben verse correctamente(acentos, eñes...) activando utf8:
 
-<img width="528" height="486" alt="imagen" src="https://github.com/user-attachments/assets/fcbe1b5b-cfbc-40fb-91d7-ceb53dfa6639" />
-
+<img width="668" height="528" alt="imagen" src="https://github.com/user-attachments/assets/7e13044e-eb0d-49af-92fa-460c1ec3937e" />
 
 Ahora instalaremos el servicio libpam-mysql, porque necesitmos que el servicio vsftpd hable con MySQL:
 
