@@ -137,3 +137,13 @@ Configuramos el fichero `/etc/pam.d/vsftpd` agregando las líneas necesarias par
 <p align="center">
   <img src="https://github.com/user-attachments/assets/74d64d17-7458-4fed-853a-dcc22b602985" width="800" height="500" alt="Configuración PAM" />
 </p>
+
+
+
+
+
+
+
+
+
+
