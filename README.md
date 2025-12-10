@@ -11,11 +11,19 @@ Security Group:
 
 <img width="1432" height="396" alt="imagen" src="https://github.com/user-attachments/assets/4a6c58ef-c559-4bb1-b587-34904adc3c67" />
 
+
 IP elástica asociada a nuesta MV VSFTPD:
 
 <img width="1563" height="678" alt="imagen" src="https://github.com/user-attachments/assets/10b305ea-d5d8-4470-a0e2-59414362517a" />
 
 
+
+
+MV MariaDB
+
+Security Group:
+
+<img width="1447" height="530" alt="imagen" src="https://github.com/user-attachments/assets/fab2880e-7a9d-4b1f-96e9-ca3faccf0488" />
 
 
 
