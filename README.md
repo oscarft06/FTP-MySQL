@@ -11,6 +11,9 @@ Security Group:
 
 <img width="1432" height="396" alt="imagen" src="https://github.com/user-attachments/assets/4a6c58ef-c559-4bb1-b587-34904adc3c67" />
 
+IP elástica asociada a nuesta MV VSFTPD:
+
+<img width="1563" height="678" alt="imagen" src="https://github.com/user-attachments/assets/10b305ea-d5d8-4470-a0e2-59414362517a" />
 
 
 
