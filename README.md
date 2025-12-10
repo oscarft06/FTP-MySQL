@@ -3,6 +3,24 @@ Proyecto de acceso a ficheros con FTP+MySQL de 2ºASIR en SRI
 
 
 
+Configuración de las máquinas en AWS
+
+MV VSFTPD
+
+Security Group:
+
+<img width="1432" height="396" alt="imagen" src="https://github.com/user-attachments/assets/4a6c58ef-c559-4bb1-b587-34904adc3c67" />
+
+
+
+
+
+
+
+
+
+
+
 Primero, prepararemos donde se guardaran nuestros usuarios para la autenticación de nuestro server FTP. Para ello necesitaremos dos maquinas que puedan escucharse entre si. Empezaremos por la MV2 donde se encontrará la base de datos.
 
 Instalaremos MariaDB/MySQL en Debian.
