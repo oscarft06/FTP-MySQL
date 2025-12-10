@@ -93,9 +93,9 @@ Se veria algo asi:
   <img width="520" height="161" alt="imagen" src="https://github.com/user-attachments/assets/7755845d-f90a-486d-a5f7-da1ad647376a" />
 </p>
 
+<br><br><br><br><br><br><br><br><br>
 
-
-Ahora instalaremos el servicio VSFPTD en la MV1:
+<h1>Ahora instalaremos el servicio VSFPTD en la MV1</h1>
 
 <p align="center">
   <img width="646" height="165" alt="imagen" src="https://github.com/user-attachments/assets/891db895-04f8-465f-bff2-544bfeb75a29" />
@@ -140,9 +140,3 @@ Ahora configuraremos el fichero /etc/pam.d/vsftpd y agregaremos las siguientes l
 <p align="center">
   <img width="1300" height="88" alt="imagen" src="https://github.com/user-attachments/assets/74d64d17-7458-4fed-853a-dcc22b602985" />
 </p>
-
-
-
-
-
-
