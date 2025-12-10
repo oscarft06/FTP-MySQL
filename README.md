@@ -57,6 +57,9 @@ Los usuarios virtuales, necesitan mapearse a un usuario local de Linux que tenga
 
 <img width="933" height="266" alt="imagen" src="https://github.com/user-attachments/assets/5009b230-8f86-49a9-aeca-37dcf0cca506" />
 
+Crearemos el directorio para el usuario creado en la base de datos (cada usuario que tengamos en la base de datos, si queremos que tengan acceso a vsftpd, tendremos que crear su directorio dentro del directorio del usuario invitado/mapeado). También le pondremos permisos para que pueda escribir y le cambiaremos el usuario y grupo propietario al directorio del usuario de la base de datos ya que va a heredar los permisos del usuario invitado/mapeado.
+
+<img width="497" height="138" alt="imagen" src="https://github.com/user-attachments/assets/c20636af-1def-4fca-b105-7cc0932c1083" />
 
 
 
