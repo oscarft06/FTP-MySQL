@@ -48,30 +48,28 @@ Reiniciaremos el servicio:
 
 Crearemos la base de datos y el usuario para la base de datos con la siguiente sintaxis:
 
+```sql
 -- Crear la base de datos
-
 CREATE DATABASE vsftpd;
 
 -- Crear la tabla de usuarios
-
 CREATE TABLE vsftpd.usuarios (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(50) NOT NULL,
-    passwd VARCHAR(50) NOT NULL
+id INT AUTO_INCREMENT PRIMARY KEY,
+nombre VARCHAR(50) NOT NULL,
+passwd VARCHAR(50) NOT NULL
 );
 
 -- Crear un usuario de prueba (contraseña '1234')
 -- Usamos la función PASSWORD() o texto plano para simplificar la conexión PAM inicial
-
 INSERT INTO vsftpd.usuarios (nombre, passwd) VALUES ('alumno', PASSWORD('1234'));
 
 -- Crear el usuario del sistema DB que usará el FTP para conectarse
 -- Le damos permiso desde la IP de la MV 1
-
 CREATE USER 'vsftpd_db_user'@'192.168.1.10' IDENTIFIED BY 'admin';
 GRANT SELECT ON vsftpd.* TO 'vsftpd_db_user'@'192.168.1.10';
 FLUSH PRIVILEGES;
 EXIT;
+```
 
 Se veria algo asi:
 
