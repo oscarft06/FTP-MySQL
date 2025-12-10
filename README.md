@@ -135,5 +135,5 @@ Instalamos el módulo `libpam-mysql` para permitir la comunicación entre VSFTPD
 Configuramos el fichero `/etc/pam.d/vsftpd` agregando las líneas necesarias para que el módulo PAM verifique la autenticación contra los datos almacenados en MySQL:
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/74d64d17-7458-4fed-853a-dcc22b602985" width="800" alt="Configuración PAM" />
+  <img src="https://github.com/user-attachments/assets/74d64d17-7458-4fed-853a-dcc22b602985" width="800" height="500" alt="Configuración PAM" />
 </p>
