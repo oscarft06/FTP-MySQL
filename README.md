@@ -66,6 +66,13 @@ Editaremos el fichero situado en /etc/vsftpd.conf con los siguientes parametros 
 <img width="528" height="486" alt="imagen" src="https://github.com/user-attachments/assets/fcbe1b5b-cfbc-40fb-91d7-ceb53dfa6639" />
 
 
+Ahora instalaremos el servicio libpam-mysql, porque necesitmos que el servicio vsftpd hable con MySQL:
+
+<img width="599" height="118" alt="imagen" src="https://github.com/user-attachments/assets/69d7d1da-2fd0-4e3c-8ede-ba45b1941400" />
+
+Ahora configuraremos el fichero /etc/pam.d/vsftpd y agregaremos las siguientes lineas para que el modulo pam pueda verificar la autenticacion y el nombre de usuario o la cuenta almacenada en la base de datos:
+
+<img width="1300" height="88" alt="imagen" src="https://github.com/user-attachments/assets/74d64d17-7458-4fed-853a-dcc22b602985" />
 
 
 
